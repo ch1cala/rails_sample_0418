@@ -1,0 +1,14 @@
+== 0418 イベント用 サンプルアプリ
+
+## Ruby version
+2.2.0
+
+## Rails version
+4.2.0
+
+## Productモデル
+```
+id: intger
+name: string
+price: integer
+```

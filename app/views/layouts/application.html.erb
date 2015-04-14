@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RailsSample0418</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><i class="fa fa-home"></i> サンプルアプリ0418</a>
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container">
+<%= yield %>
+</div>
+</body>
+</html>
